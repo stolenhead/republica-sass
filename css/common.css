@@ -1,0 +1,313 @@
+/* HEADER*/
+
+header {
+  font-size: 12px;
+}
+
+
+.inline-block {
+  display: inline-block;
+}
+
+.fondo-blanco {
+  background-color: #FFFFFF;
+}
+
+.fondo-negro {
+  background-color: #111417;
+}
+
+.fondo-gris {
+  background-color:#F4F5F7;
+  border-bottom: 1px solid #7D7D7D;
+}
+
+.texto-white {
+  color: #FFFFFF;
+}
+
+.font-azul {
+  color: blue;
+}
+
+.font-celeste {
+  color: #0C7ABF;
+}
+
+.font-rojo {
+  color: red;
+}
+
+.font-amarillo{
+  color: #FFBF00;
+}
+
+.font-naranja {
+  color: #FF4000;
+}
+
+.logo-republica{
+ padding-top: 11%;
+}
+
+.enlaces-menu {
+  margin: auto 0;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.enlaces-menu a {
+  color: #7D7D7D;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+.enlaces-menu a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+header .btn-suscripcion{
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 2px 6px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #DD4A4A;
+  text-decoration: none;
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
+.navbar-form {
+  background-color: #E4E7EA;
+}
+
+.barra-buscar {
+  background-color: #E4E7EA;
+  width: 40px;
+  font-size: 10px ; 
+  border: none;
+}
+
+.iconos-redeso {
+  font-size: 14px;
+}
+
+.iconos-redesso a{
+  padding-right: 5px;
+  padding-top: 4px;
+}
+
+header .btn-buscar{
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 2px 6px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #848484;
+  background-color: #E4E7EA;
+}
+
+.padd-redes {
+  padding: 7px 6px;
+}
+
+.miniatura-columna-diaria{
+  background-color: white;
+  border-top: 1px solid #7D7D7D;
+  border-left: 1px solid #7D7D7D;
+  border-right: 1px solid #7D7D7D;
+  border-bottom: 3px solid #AA1801;
+  height: 55px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.miniatura-columna-diaria p {
+  padding-top: 9%;
+  font-size: 13px;
+}
+
+.titulo-miniatura {
+  color: #FFFFFF;
+  background-color: #BA1414;
+  font-size: 16px;
+  height: 19px;
+  width: 30%;
+  margin: -4% 35%;
+}
+
+.seccion-editorial  {
+  background-color: #111417;
+  position: relative;
+  margin-top: 28px;
+
+}
+
+.miniatura-editorial{
+  background-color: white;
+  border: 1px solid #7D7D7D;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  height: 55px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.miniatura-editorial dfn{
+  font-size: 14px;
+}
+.miniatura-editorial a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.miniatura-editorial a:hover{
+  text-decoration: underline;
+  color: #000000;
+}
+
+.editorial-columna {
+  position: absolute;
+  top: 5%;
+}
+
+.autor-columna {
+  position: absolute;
+  top: -8%;
+  left: 87%;
+}
+
+.nav-menu {
+  background-color: #BA1414;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  height: 28px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.nav-menu ul {
+  padding: 0;
+}
+
+.nav-menu ul li {
+  border-right: 1px solid black;
+  list-style: none;
+  text-decoration: none;
+  padding: 4px 7px;
+  float: left; 
+  display: inline-block;
+}
+
+.nav-menu li:last-child {
+  border-right: none; 
+}
+
+.nav-menu a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav-menu ul li:hover {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav-menu .letra-azul {
+  background-color: #113673;
+}
+
+.nav-menu .letra-azul:hover {
+  background-color: #08088A;
+}
+
+.tema-del-dia {
+  padding-bottom: 10px;
+}
+
+.solo-tema {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  height: 28px;
+}
+
+.solo-tema p{
+  padding-top: 5px;
+  margin: auto 0;
+}
+
+.los-temas {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: black;
+  background-color: #E4E7EA;
+  height: 28px;
+  float: left;
+  margin-left: -3%;
+  font-size: 12px;
+}
+
+.los-temas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.los-temas ul li {
+  float: left;
+  list-style: disc;
+  margin-top: 5px;
+  margin-left: 26px;
+  padding-left: 20px;
+}
+
+.los-temas ul li a {
+  color: black;
+  font-size: 12px;
+}
+  
+.los-temas ul li:nth-last-child(9) {
+  list-style: none;
+}
+
+.banner-2 {
+  margin-top: 15px;
+}
+/* Acá termina el css del HEADER*/
+
+
+

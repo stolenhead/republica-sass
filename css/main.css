@@ -1,0 +1,86 @@
+.nav-menu {
+  width: 100%;
+  height: 8.33333%;
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #BA1414;
+  float: left;
+  font-weight: bold; }
+  .nav-menu ul {
+    padding: 0%; }
+    .nav-menu ul li {
+      border: 1px solid #000000;
+      text-decoration: none;
+      padding-left: 0.76923%;
+      padding-right: 0.76923%;
+      font-size: 14px;
+      display: inline-block;
+      float: left; }
+      .nav-menu ul li a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 13px; }
+
+.los-temas {
+  width: 100%;
+  height: 8.33333%;
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #F4F5F7;
+  float: left; }
+  .los-temas li {
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 0.66667%;
+    margin-right: 0.66667%; }
+    .los-temas li a {
+      text-decoration: none;
+      color: #000000;
+      font-size: 14px; }
+
+.tema-del-dia {
+  border-radius: 4px; }
+  .tema-del-dia p {
+    font-size: 12px; }
+
+.logo-republica {
+  margin-top: 4%;
+  margin-bottom: 4%; }
+
+.field-editorial {
+  margin-top: 10%;
+  margin-bottom: 10%; }
+
+.field-domingo {
+  margin-top: 6.66667%;
+  margin-bottom: 6.66667%; }
+
+#blog i.fa.fa-angle-double-down.fa-lg {
+  color: red; }
+
+#blog p {
+  color: gray; }
+
+#blog h6 {
+  color: gray; }
+
+footer {
+  font-size: 14px;
+  background-color: #E3E3E3; }
+  footer h2 {
+    font-size: 16px;
+    margin-top: -10%;
+    margin-bottom: -10%;
+    font-weight: bold; }
+  footer a {
+    font-size: 11px;
+    text-decoration: none;
+    color: #838180; }
+  footer p {
+    font-size: 11px;
+    color: #838180; }
+
+/*# sourceMappingURL=main.css.map */

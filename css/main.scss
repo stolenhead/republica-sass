@@ -1,0 +1,87 @@
+@import "_variables";
+@import "_mixin";
+
+.nav-menu{
+	@include ponerSize(null, $base-width +30, $base-height/12);
+    @include borders(null,null,null,$border-radius + 1,$align);
+	 @include paddingsMargin(null , null, $base-margin/10, null);
+     background-color: $rojo;
+     float: left; 
+     font-weight: bold;
+    ul{
+		padding:0%;
+ 		li{
+	 		@include borders($border - 2,solid,$negro,null,null);
+	   		@include textDecorationColor($decoration , null);
+	   		@include paddingsMargin(null,$base-paddingb/26,null,null);
+	   		@include ponerSize($font-size - 6, null, null);
+	  		display: inline-block;
+	  		float: left; 
+	     	a{
+	     		@include textDecorationColor($decoration , $fondo-blanco);
+	     		font-size: $font-size - 7;
+	     	}
+ 		}
+	}
+}
+.los-temas{
+	@include ponerSize(null, $base-width +30, $base-height/12);
+    @include borders(null,null,null,$border-radius + 1,$align);
+
+    @include paddingsMargin(null , null, $base-margin/10, null);
+     background-color: $fondo-grisclaro;
+     float: left; 
+    li{
+    	float: left;
+    	@include paddingsMargin(null ,$base-paddingb/20 , null, $base-marginb/30);
+		a{
+     		@include textDecorationColor($decoration , $negro);
+     		font-size: $font-size - 6;
+	     		
+	    }
+    }
+}
+.tema-del-dia{
+	@include borders(null,null,null,$border-radius,null);
+	p{
+		@include ponerSize($font-size - 8,null,null);
+	}
+}
+//header ale//
+.logo-republica{
+	@include paddingsMargin(null,null,$base-margin /5,null);
+}
+.field-editorial{
+	@include paddingsMargin(null,null,$base-margin /2,null);
+}
+.field-domingo{
+	@include  paddingsMargin(null,null,$base-margin /3,null);
+}
+//ari//
+#blog i.fa.fa-angle-double-down.fa-lg {
+  color: $font-red;
+}
+#blog p{
+  color: $font-gray;
+}
+#blog h6{
+  color: $font-gray
+}
+footer{
+	@include ponerSize($font-size - 6,null,null);
+	background-color:$fondoFooter;
+	h2{
+		@include ponerSize($font-size - 4,null,null);
+		@include paddingsMargin(null,null,$base-margin - 30,null);
+		font-weight: $bold;
+	}
+	a{
+		@include ponerSize($font-size - 9,null,null);
+		@include textDecorationColor($decoration , $colorTextoFooter);	
+	}
+	p{
+		@include ponerSize($font-size - 9,null,null);
+		color: $colorTextoFooter;
+	}
+
+}
